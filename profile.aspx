@@ -21,6 +21,6 @@
 
 
     <asp:Button ID="EditButton" runat="server" Text="Edit" OnClick="EditButton1_Click" />
-    <asp:Button ID="CancelButton" runat="server" Text="Cancel" Visible="False" />
+    <asp:Button ID="CancelButton" runat="server" Text="Cancel" Visible="False" OnClick="CancelButton_Click" />
 </asp:Content>
 

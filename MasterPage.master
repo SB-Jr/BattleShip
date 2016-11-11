@@ -12,7 +12,7 @@
     <form id="form1" runat="server">
     
     <div>
-        <a href="Welcome.aspx">Welcome</a><a href="Profile.aspx">Profile</a><a href="Status.aspx">Status</a><a href="Game.aspx">Game</a>
+        <a href="Welcome.aspx">Welcome</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="Profile.aspx">Profile</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="Status.aspx">Status</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="Game.aspx">Game</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Logout.aspx">Logout</a>
     </div>    
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
