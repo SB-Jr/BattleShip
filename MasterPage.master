@@ -12,12 +12,12 @@
     <form id="form1" runat="server">
     
     <div>
-        <a href="Welcome.aspx">Welcome</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="Profile.aspx">Profile</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="Status.aspx">Status</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="Game.aspx">Game</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Logout.aspx">Logout</a>
-    </div>    
+        <a href="Welcome.aspx">Welcome</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="Profile.aspx">Profile</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="Stats.aspx">Stats</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="Game.aspx">Game</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Logout.aspx">Logout</a>&nbsp;&nbsp;&nbsp;</div>    
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
+        <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="XMLFile.xml" BorderWidth="3px" Height="100px" Width="100%"/>
     </form>
 </body>
 </html>

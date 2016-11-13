@@ -7,14 +7,16 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
+<body style="text-align: center">
     <form id="form1" runat="server">
-    <div>
-        <asp:Label ID="UserLabel" runat="server" Text="UserId:"></asp:Label><asp:TextBox ID="userTextBox" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Username is required" ControlToValidate="userTextBox"></asp:RequiredFieldValidator>
+    <div style="margin-left: 40px">
+        <asp:Label ID="UserLabel" runat="server" Text="UserId:"></asp:Label>&nbsp;&nbsp;&nbsp; <asp:TextBox ID="userTextBox" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Username is required" ControlToValidate="userTextBox" ForeColor="Red"></asp:RequiredFieldValidator>
         <br />
-        <asp:Label ID="PasswordLabel" runat="server" Text="Password:"></asp:Label><asp:TextBox ID="passwordTextBox" runat="server" TextMode="Password"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="passwordTextBox"></asp:RequiredFieldValidator>
         <br />
-        <asp:Button ID="submitButton" runat="server" Text="Signin" OnClick="Button1_Click" />
+        <asp:Label ID="PasswordLabel" runat="server" Text="Password:"></asp:Label>&nbsp;&nbsp;&nbsp; <asp:TextBox ID="passwordTextBox" runat="server" TextMode="Password"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Please enter a password" ControlToValidate="passwordTextBox" ForeColor="Red"></asp:RequiredFieldValidator>
+        <br />
+        <br />
+        <asp:Button ID="submitButton" runat="server" Text="Sign in" OnClick="Button1_Click" />
     </div>
     </form>
 </body>

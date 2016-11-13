@@ -5,17 +5,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            color: #000099;
+        }
+    </style>
 </head>
-<body>
+<body style="text-align: center">
     <form id="form1" runat="server">
     <div class="login">
         <a href="/login.aspx">Login/Signup</a>
     </div>
 
-        <h1>Hi!!!!</h1>
-        <h3>this is the under construction site for the "<b>BATTLESHIP</b>"</h3><br />
-        <h4>please login to continue with the inevitable experience !!!!</h4><br />
-        (i know you want it).......
+        <h1 class="auto-style1">WELCOME GAMER</h1>
+        <h3>This is the &#39;under construction&#39; site for the game "<b>BATTLESHIP</b>"</h3><br />
+        <h4>Please login to experience the inevitable.</h4><br />
     </form>
 </body>
 </html>

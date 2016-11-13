@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements xmlns="http://schemas.microsoft.com/AspNet/AdRotator-Schedule-File">
+  <Ad>
+    <ImageURL>~/resources/ad/batman.jpg</ImageURL>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>Batman Ad</AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageURL>resources/ad/cs.png</ImageURL>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>CounterStrike Ad</AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+<Ad>
+    <ImageURL>resources/ad/dota2.jpg</ImageURL>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>Dota2 Ad</AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+<Ad>
+    <ImageURL>resources/ad/gtav.jpg</ImageURL>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>GTAV Ad</AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+<Ad>
+    <ImageURL>resources/ad/hitman.jpg</ImageURL>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>Hitman Ad</AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+</Advertisements>

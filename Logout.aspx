@@ -4,8 +4,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <h1>Logging you out.......</h1>
+    <h1>Logging you out...</h1>
     <br />
-    Please Wait.....
+    Please Wait...
 </asp:Content>
 
